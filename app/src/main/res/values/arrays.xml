@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fractions_list">
+        <item>Knight</item>
+        <item>Necromancer</item>
+        <item>Wizard</item>
+        <item>Elf</item>
+        <item>Barbarian</item>
+        <item>DarkElf</item>
+        <item>Demon</item>
+        <item>Dwarf</item>
+        <item>Tribal</item>
+    </string-array>
+
+    <string-array name="fractions_list_for_settings">
+        <item>Knight</item>
+        <item>Necromancer</item>
+        <item>Wizard</item>
+        <item>Elf</item>
+        <item>Barbarian</item>
+        <item>DarkElf</item>
+        <item>Demon</item>
+        <item>Dwarf</item>
+        <item>Tribal</item>
+    </string-array>
+
+    <string-array name="guesses_list">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="questions_list">
+        <item>5</item>
+        <item>10</item>
+        <item>14</item>
+    </string-array>
+
+
+</resources>

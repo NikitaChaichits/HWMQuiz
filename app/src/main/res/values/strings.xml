@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HWM Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reset">Reset</string>
+    <string name="number_of_choices">Number of Choices</string>
+    <string name="number_of_questions">Number of Questions</string>
+    <string name="number_of_choices_description">Display 2, 4, 6 or 8 guess buttons</string>
+    <string name="number_of_questions_description">Display 5, 10 or 14 questions</string>
+    <string name="fractions">Fractions</string>
+    <string name="fractions_description">Fractions to include in the quiz</string>
+    <string name="guess_fraction">Guess the creature</string>
+    <string name="passed">You successfully PASSED the quiz!</string>
+    <string name="result">For %1$d questions you used %2$d attempts</string>
+    <string name="results">Your result %1$.00f%%</string>
+    <string name="default_fraction_message">One fraction must be selected.</string>
+    <string name="restarting_quiz">Quiz will restart with your new settings</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="exit_quiz">Exit Quiz</string>
+    <string name="image_description">Image of the current creature in the quiz</string>
+    <string name="default_fraction">Knight</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_result">Result</string>
+    <string name="exit">Exit Quiz</string>
+    <string name="reset">Reset Quiz</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8789957081409372/8441060640</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-8789957081409372/5090641444</string>
+</resources>

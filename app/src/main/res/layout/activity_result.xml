@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bgresult"
+    tools:context="com.myapp.lenovo.hwmquiz.Result">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="You successfully"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSED"
+        android:id="@+id/tv2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/correct_answer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/tv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="the quiz!"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/tv2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="@string/result"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:layout_below="@+id/tv3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="@string/results"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnReset"
+        android:text="@string/reset_quiz"
+        android:textColor="#A0522D"
+        android:background="@drawable/separator"
+        android:layout_alignBaseline="@+id/btnExit"
+        android:layout_alignBottom="@+id/btnExit"
+        android:layout_alignLeft="@id/tv4"
+        />
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExit"
+        android:text="@string/exit_quiz"
+        android:textColor="#A0522D"
+        android:background="@drawable/separator"
+        android:layout_marginBottom="20sp"
+        android:layout_above="@+id/adView2"
+        android:layout_alignRight="@id/tv4" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:id="@+id/adView2"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id2"
+        android:layout_gravity="bottom"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

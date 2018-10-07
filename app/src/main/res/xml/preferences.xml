@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_numberOfChoices"
+        android:title="@string/number_of_choices"
+        android:summary="@string/number_of_choices_description"
+        android:persistent="true"
+        android:defaultValue="4" />
+
+    <ListPreference
+        android:entries="@array/questions_list"
+        android:entryValues="@array/questions_list"
+        android:key="pref_numberOfQuestions"
+        android:title="@string/number_of_questions"
+        android:summary="@string/number_of_questions_description"
+        android:persistent="true"
+        android:defaultValue="10" />
+
+    <MultiSelectListPreference
+        android:entries="@array/fractions_list_for_settings"
+        android:entryValues="@array/fractions_list"
+        android:key="pref_regionsToInclude"
+        android:title="@string/fractions"
+        android:summary="@string/fractions_description"
+        android:persistent="true"
+        android:defaultValue="@array/fractions_list" />
+
+
+</PreferenceScreen>
